@@ -1,0 +1,15 @@
+<html>
+<head>
+
+
+</head>
+<body>
+<h1>helllllo</h1>
+<h3 th:text="${prod1}">Cours</h3>
+<h3 th:text="${prod2}">Cours</h3>
+<h3 th:text="${prod3}">Cours</h3>
+<ul>
+<li th:each="produit : ${produits}" th:text="${produit}"></li>
+</ul>
+</body>
+</html>
